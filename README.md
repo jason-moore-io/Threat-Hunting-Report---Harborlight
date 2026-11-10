@@ -161,7 +161,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="1431" height="719" alt="TH22_01" src="https://github.com/user-attachments/assets/992bd9a7-0dd0-42c6-b8ee-ca9a765b7235" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -216,7 +217,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="1222" height="528" alt="TH22_02" src="https://github.com/user-attachments/assets/6d4cbbd0-b470-443f-9514-471820ddba60" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -266,7 +268,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="1486" height="518" alt="TH22_03" src="https://github.com/user-attachments/assets/146b1b1d-02dd-4dbd-bced-2f93a8e6228d" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -317,7 +320,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="933" height="639" alt="TH22_04" src="https://github.com/user-attachments/assets/7971812d-db41-4c77-980d-e58170794ca6" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -374,7 +378,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="566" height="685" alt="TH22_05" src="https://github.com/user-attachments/assets/a64bc958-ce43-4f58-b6ca-818c845a2bef" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -427,7 +432,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="898" height="508" alt="TH22_06" src="https://github.com/user-attachments/assets/9b26d34f-1b2f-4c60-aea2-07bcbf9cfe67" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -475,7 +481,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="1476" height="735" alt="TH22_07" src="https://github.com/user-attachments/assets/ef5f262a-0168-4119-b70f-45ce441613ee" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -524,9 +531,6 @@ HarborlightDental_CL
 | summarize Channels=dcount(CommandLine), First=min(EventTime) by host, ParentImage
 | order by First asc
 ```
-
-### 🖼️ Screenshot
-<Insert screenshot>
 
 ### 🛠️ Detection Recommendation
 
@@ -577,9 +581,6 @@ HarborlightDental_CL
 | order by EventTime asc
 ```
 
-### 🖼️ Screenshot
-<Insert screenshot>
-
 ### 🛠️ Detection Recommendation
 
 **Hunting Tip:**  
@@ -628,9 +629,6 @@ HarborlightDental_CL
 | project EventTime, host, Image, ParentImage, CommandLine
 | order by EventTime asc
 ```
-
-### 🖼️ Screenshot
-<Insert screenshot>
 
 ### 🛠️ Detection Recommendation
 
@@ -681,9 +679,6 @@ HarborlightDental_CL
 | order by EventTime asc
 ```
 
-### 🖼️ Screenshot
-<Insert screenshot>
-
 ### 🛠️ Detection Recommendation
 
 **Hunting Tip:**  
@@ -733,7 +728,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="1069" height="723" alt="TH22_12" src="https://github.com/user-attachments/assets/d206960e-dd32-45f1-8b30-3ea884fbf983" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -784,7 +780,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="662" height="612" alt="TH22_13" src="https://github.com/user-attachments/assets/70d21823-9b29-438b-83c2-4e79f13d86fa" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -833,7 +830,8 @@ HarborlightDental_CL
 ```
 
 ### 🖼️ Screenshot
-<Insert screenshot>
+<img width="974" height="746" alt="TH22_14" src="https://github.com/user-attachments/assets/1d5d0df0-ade2-4bd9-bf7d-095cef879987" />
+
 
 ### 🛠️ Detection Recommendation
 
@@ -868,9 +866,6 @@ The chain runs in the classic double-extortion order. Defence evasion and persis
 | Lateral Movement | PC1 → HL-FS01 → ADDC01, WMI back down from the DC | 03:34 / 04:28 / 04:44 |
 | Exfiltration | rclone as MsMpEng.exe → `mega:HARBORLIGHT-exfil` | 03:58 |
 | Impact | Anti-recovery, Akira encryption on all three hosts | 04:04 / 05:13–05:17 |
-
-### 🖼️ Screenshot
-<Insert screenshot>
 
 </details>
 
